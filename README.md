@@ -23,6 +23,8 @@ form of Pie charts, Line graphs, and Statistics with percentages, dates,
 symptoms tracked, vet visits, and progress over time. This helps users 
 visualize their pet’s wellbeing and identify patterns.
 ➢ The application dashboard will consistently inform the user about their pet’s 
+
+
 health status, missed alerts, and upcoming tasks. It will also highlight positive 
 habits such as regular check-ins or completed vaccinations, encouraging 
 responsible pet care.
@@ -30,3 +32,5 @@ responsible pet care.
 weight trends, feeding portions, and estimated costs for treatments or 
 subscriptions. These calculations help users manage pet care more efficiently 
 and budget accordingly.
+Video demostration
+https://youtube.com/shorts/FKqLooHuZV8?si=xx5QMcpbDPDGjw0S
