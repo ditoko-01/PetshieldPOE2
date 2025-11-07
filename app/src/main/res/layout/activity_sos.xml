@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutSos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@android:color/white"
+    tools:context=".ui.SOSActivity"
+
+    >
+
+    <!-- Page Title -->
+    <TextView
+
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emergency_alert"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
+
+        />
+
+
+    <!-- Radio Group Section -->
+    <RadioGroup
+        android:id="@+id/rgStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp">
+
+        <RadioButton
+            android:id="@+id/rbLost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lost"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rbInjured"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/injured"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rbDanger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/in_danger"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSendAlert"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/send_alert"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        app:backgroundTint="?attr/colorPrimary"
+        app:cornerRadius="16dp"
+        app:layout_constraintTop_toBottomOf="@id/rgStatus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp" />
+
+
+</LinearLayout>

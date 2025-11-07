@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PetShield</string>
+    <string name="emergency_alert">Emergency Alert</string>
+    <string name="lost">Lost</string>
+    <string name="injured">Injured</string>
+    <string name="in_danger">In Danger</string>
+    <string name="send_alert">Send Alert</string>
+    <string name="default_web_client_id">446995445819-abc123xyz.apps.googleusercontent.com</string>
+
+
+
+
+
+</resources>
+
+
