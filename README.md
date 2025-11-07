@@ -43,3 +43,25 @@ GitHub Actions CI/CD Build
 | Login Screen               | Pet Profile                    | Lost Pet Report              |                   |
 
 [screens.pdf](https://github.com/user-attachments/files/23424546/screens.pdf)
+
+
+#Installation and Setup
+
+To build and run PetShield locally:
+
+Clone the repository:
+
+
+Open the project in Android Studio.
+Connect Firebase:
+Add your google-services.json file in /app.
+Build and run the app:
+
+./gradlew assembleDebug
+
+
+Test login with sample credentials:
+
+Email: demo@petshield.com
+Password: demo123
+
